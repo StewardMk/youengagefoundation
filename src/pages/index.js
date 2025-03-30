@@ -154,9 +154,7 @@ const Homepage = () => {
             >
               Get started
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-[#F08F24] hover:text-[#FFA726]">
-              Live demo <span aria-hidden="true">→</span>
-            </a>
+            
           </div>
         </div>
         <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">

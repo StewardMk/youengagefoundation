@@ -124,7 +124,7 @@ const AboutPage = () => {
             >
               <h1 className="text-4xl md:text-5xl font-bold mb-6">About <span className="text-[#F08F24]">YouEngage</span></h1>
               <p className="text-lg md:text-xl mb-8">
-                YouEngage Foundation is a Human Capital Social enterprise dedicated to developing the next generation of thoughtful and impactful leaders. Through our tailored coaching services and workshops, we equip young, emerging leaders with the skills, mindset, and networks they need to thrive.
+              YouEngage Foundation is a youth-focused organization committed to developing Africa’s next generation of visionary leaders, seeks to create such environments that can empower the current and future generation as a means to achieve sustained peace, stability and security for our nation.
               </p>
               <div className="flex space-x-4">
                 <motion.button 

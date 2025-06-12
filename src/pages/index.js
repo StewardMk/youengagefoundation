@@ -142,13 +142,13 @@ const Homepage = () => {
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
           Empowering Youth. Building Peace. Transforming Africa 
           </h1>
-        <p className="mt-6 text-2xl leading-8 font-bold text-gray-300 sm:max-w-md lg:max-w-none">
+        <p className="mt-6 text-2xl leading-8 font-bold text-white sm:max-w-md lg:max-w-none">
             Our Mission 
             </p>
             <p className="mt-2 text-lg leading-8 text-gray-300 sm:max-w-md lg:max-w-none">
-              To empower young people across Zambia and beyond through holistic programs in leadership development, climate resilience, livelihood restoration, entrepreneurship, and SRH awareness equipping them with the skills, values, and opportunities to thrive, lead, and foster peace, stability, and inclusive growth in their communities.
+              To empower young people across Zambia and beyond through holistic programs in leadership development, entrepreneurship, climate resilience, livelihood restoration and SRH awareness equipping them with the skills, values, and opportunities to thrive, lead, and foster peace, stability, and inclusive growth in their communities.
               </p>
-          <p className="mt-6 text-2xl leading-8 font-bold text-gray-300 sm:max-w-md lg:max-w-none">
+          <p className="mt-6 text-2xl leading-8 font-bold text-white sm:max-w-md lg:max-w-none">
             Our Vision 
             </p>
           <p className="mt-6 text-lg leading-8 text-gray-300 sm:max-w-md lg:max-w-none">
@@ -272,10 +272,7 @@ const Homepage = () => {
           alt="About YouEngage"
           className="rounded-xl shadow-2xl"
         />
-        <div className="absolute -bottom-8 -right-8 bg-[#00AEEF] p-6 rounded-xl shadow-lg hidden md:block">
-          <div className="text-4xl font-bold">12+</div>
-          <div className="text-lg">Years of Experience</div>
-        </div>
+        
       </div>
 
       {/* Content Column */}
@@ -294,8 +291,8 @@ const Homepage = () => {
               </svg>
             </div>
             <div>
-              <div className="font-semibold">200+ Organizations Transformed</div>
-              <div className="text-gray-300 text-sm">Across various industries worldwide</div>
+              <div className="font-semibold">Leadership Development</div>
+              <div className="text-gray-300 text-sm"> We equip youth with the essential leadership skills, mindset, and networks they need to lead with purpose and impact their communities.</div>
             </div>
           </div>
 
@@ -306,8 +303,9 @@ const Homepage = () => {
               </svg>   
             </div>
             <div>
-              <div className="font-semibold">Proven Methodologies</div>
-              <div className="text-gray-300 text-sm">Backed by research and real-world results</div>
+              <div className="font-semibold"> Livelihood restoration And
+              Skills Enhancement</div>
+              <div className="text-gray-300 text-align-justify text-sm"> We support youth in acquiring vocational skills, financial literacy, and entrepreneurship training that allow them to secure employment or create their own businesses.</div>
             </div>
           </div>
 
@@ -318,8 +316,8 @@ const Homepage = () => {
               </svg>
             </div>
             <div>
-              <div className="font-semibold">Global Network</div>
-              <div className="text-gray-300 text-sm">Certified facilitators in 15+ countries</div>
+              <div className="font-semibold">Sexual Reproductive Health Awareness</div>
+              <div className="text-gray-300 text-sm">We empower youth with critical knowledge about their SRHR, helping them make informed decisions about their bodies and health.</div>
             </div>
           </div>
         </div>
@@ -399,38 +397,18 @@ const Homepage = () => {
             className="rounded-2xl shadow-xl"
           />
           <div>
-            <h2 className="text-4xl font-bold mb-6">The Engagement Accelerator</h2>
+            <h2 className="text-4xl font-bold mb-6">StandOut Mentorship Program</h2>
             <p className="text-lg mb-6">
-              Our flagship 12-week program combines leadership coaching with team workshops to:
+            The StandOut Mentorship Program is designed to nurture young emerging leaders who are in the early stages of their career journey. This program equips participantswith essential leadership skills, personal development tools, and the opportunity to create meaningful impact in their communities. It offers a blend of virtual and physical engagements focused on enhancing leadership capabilities, fostering social responsibility, and cultivating professional growth. 
             </p>
-
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-center">
-                <div className="w-2 h-2 bg-[#F08F24] rounded-full mr-3" />
-                High-Impact Leadership Coaching Sessions
-              </li>
-              <li className="flex items-center">
-                <div className="w-2 h-2 bg-[#00AEEF] rounded-full mr-3" />
-                Leadership Skills Workshops
-              </li>
-              <li className="flex items-center">
-                <div className="w-2 h-2 bg-[#2BB673] rounded-full mr-3" />
-                Reflective Conversations
-              </li><li className="flex items-center">
-                <div className="w-2 h-2 bg-[#CC203D] rounded-full mr-3" />
-                Create sustainable performance frameworks
-              </li>
-            </ul>
+            
             <button className="bg-[#CC203D] px-6 py-3 rounded-lg font-semibold hover:bg-[#B31E38]">
               Program Details
             </button>
           </div>
         </div>
       </section>
-
       
-
-
       {/* Contact Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12">

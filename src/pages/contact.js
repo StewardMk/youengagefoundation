@@ -34,7 +34,7 @@ const ContactPage = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      content: "info@youengagefoundations.site",
+      content: "info@youengagefoundations.org",
       color: "#F08F24"
     },
     {

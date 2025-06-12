@@ -140,13 +140,22 @@ const Homepage = () => {
       <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
         <div className="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-          Building Excellent Young Emerging Leaders
+          Empowering Youth. Building Peace. Transforming Africa 
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-300 sm:max-w-md lg:max-w-none">
-          Empowering the next generation of leaders through tailored coaching, workshops, and reflective platforms.
+        <p className="mt-6 text-2xl leading-8 font-bold text-gray-300 sm:max-w-md lg:max-w-none">
+            Our Mission 
             </p>
             <p className="mt-2 text-lg leading-8 text-gray-300 sm:max-w-md lg:max-w-none">
-              Our mission is to equip them with the essential skills, mindset, and networks to lead with purpose.</p>
+              To empower young people across Zambia and beyond through holistic programs in leadership development, climate resilience, livelihood restoration, entrepreneurship, and SRH awareness equipping them with the skills, values, and opportunities to thrive, lead, and foster peace, stability, and inclusive growth in their communities.
+              </p>
+          <p className="mt-6 text-2xl leading-8 font-bold text-gray-300 sm:max-w-md lg:max-w-none">
+            Our Vision 
+            </p>
+          <p className="mt-6 text-lg leading-8 text-gray-300 sm:max-w-md lg:max-w-none">
+         
+          A peaceful, inclusive, and resilient Africa led by empowered youth who are catalysts for sustainable development, social justice, and transformative change.
+            </p>
+          
           <div className="mt-10 flex items-center gap-x-6">
             <a
               href="#"
@@ -275,7 +284,7 @@ const Homepage = () => {
           About <span className="text-[#F08F24]">YouEngage Foundation</span>
         </h2>
         <p className="text-lg text-gray-200">
-          YouEngage Foundation is a Human Capital Social enterprise focused on coaching services for young, emerging leaders. Our core emphasis lies in facilitating reflective and profound conversations to foster their growth and development.
+        YouEngage Foundation is a youth-focused organization committed to developing Africa’s next generation of visionary leaders, seeks to create such environments that can empower the current and future generation as a means to achieve sustained peace, stability and security for our nation.
         </p>
         <div className="space-y-4">
           <div className="flex items-center">
@@ -327,8 +336,11 @@ const Homepage = () => {
 <section className="py-20 bg-white">
   <div className="container mx-auto px-6">
     <h2 className="text-4xl font-bold text-center mb-16 text-[#231F20]">   
-      Program Offerings
+      Our Pillars 
     </h2>
+    <h4 className="text-xl font- text-center mb-16 text-[#231F20]">
+      At YouEngage Foundation, our work is anchored on three transformative pillars that collectively empower youth and contribute to long-term peace, stability, and development:
+    </h4>
     <div className="grid md:grid-cols-3 gap-8">
       {/* Service 1: High-Impact Leadership Coaching Sessions */}
       <div className="bg-gray-50 rounded-xl p-8 border-t-4 border-[#CC203D] hover:shadow-lg transition-shadow">
@@ -337,24 +349,12 @@ const Homepage = () => {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
           </svg>
         </div>
-        <h3 className="text-2xl font-bold text-[#231F20] mb-4">Leadership Development</h3>
-        <p className="text-gray-600 mb-6">
-          Personalized one-on-one coaching with experienced mentors.
+        <h3 className="text-2xl font-bold text-[#231F20] mb-4">Meaningful Work and Livelihoods</h3>
+        <p className="text-gray-600 text-align: justify mb-6">
+        We equip youth with the tools and opportunities to become economically independent and resilient. Through vocational training, entrepreneurship support, job placement, financial literacy, and business incubation, we empower young people to create dignified livelihoods and actively contribute to their communities’ economic growth.
+
         </p>
-        <ul className="space-y-2 text-gray-600">
-          <li className="flex items-center">
-            <div className="w-2 h-2 bg-[#CC203D] rounded-full mr-3" />
-            Tailored leadership development plans
-          </li>
-          <li className="flex items-center">
-            <div className="w-2 h-2 bg-[#CC203D] rounded-full mr-3" />
-            Regular progress tracking and accountability
-          </li>
-          <li className="flex items-center">
-            <div className="w-2 h-2 bg-[#CC203D] rounded-full mr-3" />
-            
-          </li>
-        </ul>
+       
       </div>
 
       {/* Service 2: Leadership Skills Workshops */}
@@ -364,24 +364,12 @@ const Homepage = () => {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
           </svg>
         </div>
-        <h3 className="text-2xl font-bold text-[#231F20] mb-4">Team Engagement</h3>
+        <h3 className="text-2xl font-bold text-[#231F20] mb-4">Education and Skills Development
+</h3>
         <p className="text-gray-600 mb-6">
-        Interactive workshops focusing on essential leadership skills.
+        We provide inclusive, practical, and future-oriented learning pathways. Our programs integrate vocational skills training, partnerships with trade schools, and non-traditional education such as e-learning, bootcamps, and community-based training. We also offer career readiness support, life skills development, and internship placements to bridge the gap between education and employment especially for youth underserved by traditional systems.
         </p>
-        <ul className="space-y-2 text-gray-600">
-          <li className="flex items-center">
-            <div className="w-2 h-2 bg-[#F08F24] rounded-full mr-3" />
-            Topics including communication, emotional intelligence
-          </li>
-          <li className="flex items-center">
-            <div className="w-2 h-2 bg-[#F08F24] rounded-full mr-3" />
-            team-building, decision-making, and more.
-          </li>
-          <li className="flex items-center">
-            <div className="w-2 h-2 bg-[#F08F24] rounded-full mr-3" />
-            Practical activities to apply learned skills in real-world scenarios.
-          </li>
-        </ul>
+       
       </div>
 
       {/* Service 3: Performance Optimization */}
@@ -391,24 +379,12 @@ const Homepage = () => {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
           </svg>
         </div>
-        <h3 className="text-2xl font-bold text-[#231F20] mb-4">Performance Optimization</h3>
+        <h3 className="text-2xl font-bold text-[#231F20] mb-4">Sustainable Communities
+        </h3>
         <p className="text-gray-600 mb-6">
-        Group discussions facilitated by experts.
+        We build youth capacity to drive positive change within their communities. By promoting climate resilience, civic engagement, social responsibility, gender equity, and SRH awareness, we nurture young leaders who are agents of peace, sustainability, and inclusive development. This work strengthens the social fabric and lays the groundwork for long-term stability and growth.
         </p>
-        <ul className="space-y-2 text-gray-600">
-          <li className="flex items-center">
-            <div className="w-2 h-2 bg-[#2BB673] rounded-full mr-3" />
-            Opportunities to share experiences, insights, and challenges
-          </li>
-          <li className="flex items-center">
-            <div className="w-2 h-2 bg-[#2BB673] rounded-full mr-3" />
-            Mutual learning and support among participants.
-          </li>
-          <li className="flex items-center">
-            <div className="w-2 h-2 bg-[#2BB673] rounded-full mr-3" />
-            Continuous improvement systems
-          </li>
-        </ul>
+      
       </div>
     </div>
   </div>
@@ -454,32 +430,6 @@ const Homepage = () => {
 
       
 
-      {/* Impact Metrics */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-16 text-[#231F20]">
-            Proven Results
-          </h2>
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div className="p-6 border-l-4 border-[#00AEEF]">
-              <div className="text-4xl font-bold text-[#231F20] mb-2">87%</div>
-              <div className="text-gray-600">Employee Retention Increase</div>
-            </div>
-            <div className="p-6 border-l-4 border-[#F08F24]">
-              <div className="text-4xl font-bold text-[#231F20] mb-2">2.3x</div>
-              <div className="text-gray-600">Productivity Growth</div>
-            </div>
-            <div className="p-6 border-l-4 border-[#2BB673]">
-              <div className="text-4xl font-bold text-[#231F20] mb-2">94%</div>
-              <div className="text-gray-600">Leadership Satisfaction</div>
-            </div>
-            <div className="p-6 border-l-4 border-[#CC203D]">
-              <div className="text-4xl font-bold text-[#231F20] mb-2">200+</div>
-              <div className="text-gray-600">Organizations Transformed</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Contact Section */}
       <section className="py-20 bg-gray-50">
